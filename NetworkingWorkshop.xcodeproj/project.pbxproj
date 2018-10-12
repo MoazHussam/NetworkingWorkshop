@@ -18,6 +18,7 @@
 		4131BCCC2170F563009E307E /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4131BCC42170F562009E307E /* ReusableView.swift */; };
 		4131BCCE2170F707009E307E /* TimeLineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4131BCCD2170F707009E307E /* TimeLineTableViewController.swift */; };
 		4131BCD02170F727009E307E /* TimeLineDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4131BCCF2170F727009E307E /* TimeLineDataController.swift */; };
+		41BA4A442171090500D73FAB /* TimeLineDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA4A432171090500D73FAB /* TimeLineDataFetcher.swift */; };
 		41BBD3632170F24B00DDC25C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBD3622170F24B00DDC25C /* AppDelegate.swift */; };
 		41BBD3652170F24B00DDC25C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBD3642170F24B00DDC25C /* ViewController.swift */; };
 		41BBD3682170F24B00DDC25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BBD3662170F24B00DDC25C /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		4131BCC42170F562009E307E /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		4131BCCD2170F707009E307E /* TimeLineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewController.swift; sourceTree = "<group>"; };
 		4131BCCF2170F727009E307E /* TimeLineDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineDataController.swift; sourceTree = "<group>"; };
+		41BA4A432171090500D73FAB /* TimeLineDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineDataFetcher.swift; sourceTree = "<group>"; };
 		41BBD35F2170F24B00DDC25C /* NetworkingWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BBD3622170F24B00DDC25C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BBD3642170F24B00DDC25C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				4131BCB82170F51E009E307E /* TimeLineTableViewCell.swift */,
 				4131BCCD2170F707009E307E /* TimeLineTableViewController.swift */,
 				4131BCCF2170F727009E307E /* TimeLineDataController.swift */,
+				41BA4A432171090500D73FAB /* TimeLineDataFetcher.swift */,
 			);
 			path = NetworkingWorkshop;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				41BBD3632170F24B00DDC25C /* AppDelegate.swift in Sources */,
 				4131BCCB2170F563009E307E /* NibLoadableView.swift in Sources */,
 				4131BCB92170F51E009E307E /* TimeLineTableViewCell.swift in Sources */,
+				41BA4A442171090500D73FAB /* TimeLineDataFetcher.swift in Sources */,
 				4131BCD02170F727009E307E /* TimeLineDataController.swift in Sources */,
 				4131BCC92170F563009E307E /* UITableViewHeaderFooterView+ReusableView.swift in Sources */,
 				4131BCC72170F563009E307E /* UICollectionView+ResusableCell.swift in Sources */,

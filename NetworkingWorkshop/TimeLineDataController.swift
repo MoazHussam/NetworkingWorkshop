@@ -36,7 +36,7 @@ class TimeLineDataController {
     
 }
 
-struct Timeline {
+struct Timeline: Decodable {
     let user: String
     let image: String
     let date: String

@@ -10,8 +10,8 @@ import UIKit
 
 class TimeLineTableViewCell: UITableViewCell {
     
-    let avatarImageView: UIImageView = {
-        let imageView = UIImageView()
+    let avatarImageView: UILabel = {
+        let imageView = UILabel()
         return imageView
     }()
     
@@ -45,7 +45,7 @@ class TimeLineTableViewCell: UITableViewCell {
         self.addSubview(dateLabel)
         self.addSubview(avatarImageView)
         
-        avatarImageView.anchor(top: self.topAnchor, leading: self.leadingAnchor, bottom: nil, trailing: nil, topConstant: 8, leadingConstant: 8, bottomConstant: 0, trailingConstant: 0, widthConstant: 44, heightConstant: 44)
+        avatarImageView.anchor(top: self.topAnchor, leading: self.leadingAnchor, bottom: nil, trailing: nil, topConstant: 8, leadingConstant: 8, bottomConstant: 0, trailingConstant: 0, widthConstant: 0, heightConstant: 0)
         userLabel.anchor(top: self.avatarImageView.topAnchor, leading: self.avatarImageView.leadingAnchor, bottom: self.bottomAnchor, trailing: nil, topConstant: 8, leadingConstant: 0, bottomConstant: 0, trailingConstant: 0, widthConstant: 0, heightConstant: 0)
         dateLabel.anchor(top: self.topAnchor, leading: avatarImageView.trailingAnchor, bottom: nil, trailing: nil, topConstant: 8, leadingConstant: 8, bottomConstant: 0, trailingConstant: 0, widthConstant: 0, heightConstant: 0)
     }
